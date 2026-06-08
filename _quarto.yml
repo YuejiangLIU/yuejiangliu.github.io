@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+  pre-render:
+    - cp styles.scss styles.css
+
+website:
+  title: "Yuejiang Liu"
+  site-url: "https://yuejiangliu.github.io"
+  description: "Personal academic website of Yuejiang Liu, postdoctoral fellow at Stanford University and incoming assistant professor at the National University of Singapore."
+  navbar: false
+  search: false
+  page-footer: "© 2026 Yuejiang Liu · Built with Quarto."
+  open-graph: true
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    title-block-banner: false
+    anchor-sections: false

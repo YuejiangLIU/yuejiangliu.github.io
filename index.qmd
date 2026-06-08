@@ -1,0 +1,122 @@
+---
+title: "Yuejiang Liu"
+description: "Personal academic website of Yuejiang Liu, postdoctoral fellow at Stanford University and incoming assistant professor at the National University of Singapore."
+author: "Yuejiang Liu"
+format:
+  html:
+    page-layout: full
+---
+
+<header class="site-header">
+<a class="site-name" href="#top" aria-label="Yuejiang Liu home">Yuejiang Liu</a>
+<nav class="site-nav" aria-label="Primary navigation">
+<a href="#research">Research</a>
+<a href="#publications">Publications</a>
+<a href="#contact">Contact</a>
+<a href="https://lema-nus.github.io/">Group</a>
+</nav>
+</header>
+
+<main id="top" class="container">
+<section class="hero" aria-labelledby="hero-title">
+<div class="profile-media">
+<img src="images/yuejiang-square.jpg" width="168" height="168" alt="Portrait of Yuejiang Liu">
+</div>
+<div class="profile-copy">
+<h1 id="hero-title">Yuejiang Liu</h1>
+<p class="title-lines">Postdoc, Department of Computer Science, Stanford University<br>
+Assistant Professor (Incoming), National University of Singapore<br></p>
+<p class="link-row">
+<a href="mailto:yuejiang.liu@cs.stanford.edu">Email</a>
+<span>·</span>
+<a href="https://scholar.google.com/citations?hl=en&amp;user=Xi-B5WIAAAAJ" target="_blank" rel="noopener noreferrer">Scholar</a>
+<span>·</span>
+<a href="https://github.com/YuejiangLIU" target="_blank" rel="noopener noreferrer">GitHub</a>
+<span>·</span>
+<a href="https://x.com/liu_yuejiang" target="_blank" rel="noopener noreferrer">Twitter</a>
+<span>·</span>
+<a href="https://www.xiaohongshu.com/user/profile/5f091f240000000001006b82" target="_blank" rel="noopener noreferrer">RedNote</a>
+<span>·</span>
+<a href="https://lema-nus.github.io/" target="_blank" rel="noopener noreferrer">Group</a>
+</p>
+</div>
+</section>
+
+<section class="section bio" aria-labelledby="bio-title">
+<p>Hi, there! I am currently a postdoctoral fellow at Stanford University, where I am fortunate to be advised by <a href="https://ai.stanford.edu/~cbfinn/" target="_blank" rel="noopener noreferrer">Chelsea Finn</a> and mentored by <a href="https://yilundu.github.io/" target="_blank" rel="noopener noreferrer">Yilun Du</a>. Previously, I obtained my PhD from EPFL, where I was fortunate to be advised by <a href="https://people.epfl.ch/alexandre.alahi?lang=en/" target="_blank" rel="noopener noreferrer">Alexandre Alahi</a>, and interned with <a href="https://www.francescolocatello.com/" target="_blank" rel="noopener noreferrer">Francesco Locatello</a>, <a href="https://www.oii.ox.ac.uk/people/profiles/chris-russell/" target="_blank" rel="noopener noreferrer">Chris Russell</a>, and <a href="https://is.mpg.de/~bs" target="_blank" rel="noopener noreferrer">Bernhard Schölkopf</a>.</p> 
+<p>I will be joining the Department of Computer Science at the <a href="https://www.comp.nus.edu.sg/cs/research/" target="_blank" rel="noopener noreferrer">National University of Singapore (NUS)</a> as an Assistant Professor, supported by the <a href="https://www.nus.edu.sg/careers/nus-programmes" target="_blank" rel="noopener noreferrer">Presidential Young Professorship</a> award. We are actively looking for PhD students and research interns to join our <a href="https://lema-nus.github.io/" target="_blank" rel="noopener noreferrer">LEMA group</a> starting in 2027. If you are interested in joining us or exploring possible collaborations, I would be delighted to hear from you.</p> 
+</section>
+
+
+<section id="research" class="section research" aria-labelledby="research-title">
+<h2 id="research-title">Research</h2>
+<p>My research aims to build intelligent agents that can perceive, reason, and act in the physical world. I am particularly interested in <strong>physical intelligence in open dynamic worlds</strong>, where robot data is fundamentally limited, while moving objects, partial observability, and other interactive agents are the norm. To address these challenges, my research spans three interconnected elements:</p>
+<div class="research-list">
+<article>
+<h3>Adaptive robot policies</h3>
+<p>How can robot policies adapt dynamically at inference time to new tasks, environments, and embodiment variations?</p>
+</article>
+<article>
+<h3>Interactive world models</h3>
+<p>How can structured world models help agents anticipate spatial, temporal, and physical interactions before acting?</p>
+</article>
+<article>
+<h3>Proactive self-improvement</h3>
+<p>How can agents verify, curate, and explore informative experiences to continually improve with minimal human supervision?</p>
+</article>
+</div>
+<p >Our recent research has been recognized with paper awards at workshops at ICLR, CVPR, and RSS, alongside invited talks at OpenAI, NVIDIA, and other institutions..</p>
+</section>
+
+<section id="publications" class="section publications" aria-labelledby="publications-title">
+<h2 id="publications-title">Recent Publications</h2>
+<p class="pub-intro">&#42; Equal contribution. &dagger; Equal advising. For the full list, please refer to my <a href="https://scholar.google.com/citations?hl=en&amp;user=Xi-B5WIAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
+<div class="publication-list">
+<article class="publication">
+<p class="pub-title">World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry</p>
+<p class="pub-authors"><strong>Yuejiang Liu</strong>&#42;, Fan Feng&#42;, Lingjing Kong&#42;, Weifeng Lu&#42;, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du</p>
+<div class="pub-meta">
+<p class="pub-venue">Preprint, 2026. Best Paper Award, ICLR World Model Workshop.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2604.01985" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://world-action-verifier.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/world-action-verifier/wav_robot" target="_blank" rel="noopener noreferrer">Code</a></p>
+</div>
+</article>
+<article class="publication">
+<p class="pub-title">Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment</p>
+<p class="pub-authors">Jacky Kwok, Xilun Zhang, Mengdi Xu, <strong>Yuejiang Liu</strong>&dagger;, Azalia Mirhoseini&dagger;, Chelsea Finn&dagger;, Marco Pavone&dagger;</p>
+<div class="pub-meta">
+<p class="pub-venue">Preprint, 2026. Best Paper Finalist, CVPR Scalable Robot Learning Workshop.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2602.12281" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://cover-vla.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/cover-vla/cover-vla" target="_blank" rel="noopener noreferrer">Code</a></p>
+</div>
+</article>
+<article class="publication">
+<p class="pub-title">RoboMME: Benchmarking and Understanding Memory for Robotic Generalist Policies</p>
+<p class="pub-authors">Yinpei Dai, Hongze Fu, Jayjun Lee, <strong>Yuejiang Liu</strong>, Haoran Zhang, Jianing Yang, Chelsea Finn, Nima Fazeli, Joyce Chai</p>
+<div class="pub-meta">
+<p class="pub-venue">International Conference on Machine Learning (ICML), 2026. Oral (0.7%).</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2603.04639" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://robomme.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/RoboMME/robomme_benchmark" target="_blank" rel="noopener noreferrer">Code</a></p>
+</div>
+</article>
+<article class="publication">
+<p class="pub-title">Learning Long-Context Diffusion Policies via Past-Token Prediction</p>
+<p class="pub-authors">Marcel Villasevil&#42;, Andy Tang&#42;, <strong>Yuejiang Liu</strong>&#42;, Chelsea Finn</p>
+<div class="pub-meta">
+<p class="pub-venue">Conference on Robot Learning (CoRL), 2025. Best Paper Award, RSS Robot Representation Workshop.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2505.09561" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://long-context-dp.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/long-context-dp/ldp" target="_blank" rel="noopener noreferrer">Code</a></p>
+</div>
+</article>
+<article class="publication">
+<p class="pub-title">Bidirectional Decoding: Improving Action Chunking via Guided Test-Time Sampling</p>
+<p class="pub-authors"><strong>Yuejiang Liu</strong>&#42;, Jubayer Ibn Hamid&#42;, Annie Xie, Yoonho Lee, Max Du, Chelsea Finn</p>
+<div class="pub-meta">
+<p class="pub-venue">International Conference on Learning Representations (ICLR), 2025. Invited talk at OpenAI.</p>
+<p class="pub-links"><a href="https://arxiv.org/abs/2408.17355" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://bid-robot.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/YuejiangLIU/bid_diffusion" target="_blank" rel="noopener noreferrer">Code</a></p>
+</div>
+</article>
+</div>
+</section>
+
+<section id="contact" class="section contact" aria-labelledby="contact-title">
+<h2 id="contact-title">Contact</h2>
+<p>For prospective students and collaborators interested in embodied agents, robot learning, world models, and self-improving systems, please fill out <a href="https://forms.office.com/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAANdREodUMkpWNDZVVTJQODI0Tk1USTVDT0dMVDE3SS4u&amp;origin=lprLink&amp;route=shorturl" target="_blank" rel="noopener noreferrer">this form</a> or email me at yuejiang.liu [at] cs.stanford.edu.</p>
+</section>
+</main>
