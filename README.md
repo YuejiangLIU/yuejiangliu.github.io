@@ -16,9 +16,9 @@ quarto render
 
 ## Deployment
 
-Push to `main`. GitHub Actions renders the site and deploys `_site/` to GitHub Pages.
+Push to `master`. GitHub Actions renders the site with Quarto and publishes the built output to the `gh-pages` branch.
 
-In the GitHub repository settings, configure Pages to deploy from GitHub Actions.
+In the GitHub repository settings, configure Pages to deploy from the `gh-pages` branch.
 
 ## Editing content
 
