@@ -191,7 +191,10 @@ h3 {
 }
 
 .bio p {
+  hyphens: auto;
   margin-bottom: 1rem;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .direction-list {
@@ -225,7 +228,10 @@ h3 {
 }
 
 .research > p {
+  hyphens: auto;
   margin-bottom: 0.85rem;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .research-list {
@@ -259,7 +265,10 @@ h3 {
 
 .research-list p {
   color: var(--muted);
+  hyphens: auto;
   margin-bottom: 0;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .research-note {
@@ -343,6 +352,51 @@ h3 {
   border-bottom: 0;
 }
 
+.contact-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-item {
+  align-items: baseline;
+  display: grid;
+  column-gap: 0.62rem;
+  grid-template-columns: 0.8rem 5.35rem minmax(0, 1fr);
+  row-gap: 0;
+}
+
+.contact-item::before {
+  background: var(--accent);
+  border-radius: 50%;
+  content: "";
+  height: 0.34rem;
+  margin-top: 0.68rem;
+  opacity: 0.72;
+  width: 0.34rem;
+}
+
+.contact-label {
+  color: #26323d;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.contact-detail {
+  color: var(--text);
+  font-size: 0.95rem;
+  hyphens: auto;
+  line-height: 1.62;
+  margin: 0;
+  text-align: left;
+}
+
+.contact-detail a {
+  color: var(--muted);
+}
+
 .nav-footer {
   background: transparent;
   border-top: 1px solid var(--border);
@@ -415,6 +469,13 @@ h3 {
     padding: 1.18rem 0;
   }
 
+  .bio p,
+  .research > p,
+  .research-list p {
+    hyphens: manual;
+    text-align: left;
+  }
+
   .news-list li {
     grid-template-columns: 1fr;
     gap: 0.12rem;
@@ -443,6 +504,32 @@ h3 {
 
   .research-list p {
     grid-column: 2;
+  }
+
+  .contact-list {
+    gap: 0.9rem;
+  }
+
+  .contact-item {
+    gap: 0.08rem;
+    grid-template-columns: 0.8rem minmax(0, 1fr);
+  }
+
+  .contact-item::before {
+    grid-row: 1 / span 2;
+    margin-top: 0.58rem;
+  }
+
+  .contact-detail {
+    grid-column: 2;
+  }
+
+  .contact-label {
+    grid-column: 2;
+  }
+
+  .contact-detail {
+    hyphens: manual;
   }
 
   .pub-title {
