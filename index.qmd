@@ -124,7 +124,7 @@ Assistant Professor (Incoming), National University of Singapore<br></p>
 </div>
 <div class="contact-item">
 <p class="contact-label">Openings</p>
-<p class="contact-detail">For PhD / RA applications, please review <a href="https://lema-nus.github.io/contact.html" target="_blank" rel="noopener noreferrer">openings in my incoming group</a> and submit the application form. If you do not hear back within one week and believe there is a strong fit, you may follow up at liuyj [at] comp.nus.edu.sg.</p>
+<p class="contact-detail">For PhD / RA applications, please review <a href="https://lema-nus.github.io/contact.html" target="_blank" rel="noopener noreferrer">openings in my incoming group</a> and submit the application form. If you do not hear back within one week and believe there is a strong fit, you may follow up at liuyj [at] comp.nus.edu.sg using the subject line “NUS-LEMA Application | [Expected Role] | [Current Affiliation]”.</p>
 </div>
 </div>
 </section>
