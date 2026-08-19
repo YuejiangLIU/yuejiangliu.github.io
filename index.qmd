@@ -47,9 +47,19 @@ Assistant Professor (Incoming), National University of Singapore<br></p>
 <p>I will be joining the <a href="https://www.comp.nus.edu.sg/cs/people/liuyj" target="_blank" rel="noopener noreferrer">Department of Computer Science</a> at the <a href="https://www.comp.nus.edu.sg/cs/research/" target="_blank" rel="noopener noreferrer">National University of Singapore (NUS)</a> as an Assistant Professor, supported by the <a href="https://www.nus.edu.sg/careers/nus-programmes" target="_blank" rel="noopener noreferrer">Presidential Young Professorship</a> award. We are actively looking for PhD students and research assistants to join our <a href="https://lema-nus.github.io/" target="_blank" rel="noopener noreferrer">LEMA group</a> starting in 2027. If you are interested in joining us or exploring potential collaborations, we would be happy to hear from you.</p> 
 </section>
 
+<section class="section news" aria-labelledby="news-title">
+<h2 id="news-title">News &amp; Events</h2>
+<ul class="news-list">
+<li><time datetime="2026-11">Nov 2026</time><span>Invited talk at the <a href="https://corl2026-memory.github.io/" target="_blank" rel="noopener noreferrer">CoRL Memory Workshop</a>.</span></li>
+<li><time datetime="2026-10">Oct 2026</time><span>Serving as an Area Chair for <a href="https://iclr.cc/Conferences/2027" target="_blank" rel="noopener noreferrer">ICLR 2027</a>.</span></li>
+<li><time datetime="2026-07">Jul 2026</time><span>Invited talk at the <a href="https://ai4all.spcs.stanford.edu/" target="_blank" rel="noopener noreferrer">Stanford AI4ALL program</a>.</span></li>
+<li><time datetime="2026-06">Jun 2026</time><span>Launched the <a href="https://lema-nus.github.io/" target="_blank" rel="noopener noreferrer">LEMA group</a> website at NUS.</span></li>
+</ul>
+</section>
+
 
 <section id="research" class="section research" aria-labelledby="research-title">
-<h2 id="research-title">Research</h2>
+<h2 id="research-title">Research Overview</h2>
 <p>My research aims to build intelligent agents that can perceive, reason, and act in the physical world. I am particularly interested in <strong>physical intelligence in open dynamic worlds</strong>, where robot data is fundamentally limited, while moving objects, partial observability, and other interactive agents are the norm. To address these challenges, my research spans three interconnected elements:</p>
 <div class="research-list">
 <article>
