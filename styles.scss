@@ -322,6 +322,10 @@ h3 {
   color: var(--muted);
 }
 
+.pub-venue a {
+  color: inherit;
+}
+
 .pub-meta {
   align-items: baseline;
   display: flex;
