@@ -95,7 +95,7 @@ Assistant Professor (Incoming), National University of Singapore<br></p>
 <p class="pub-title">World Action Verifier: Self-Improving World Models via Forward-Inverse Asymmetry</p>
 <p class="pub-authors"><strong>Yuejiang Liu</strong>&#42;, Fan Feng&#42;, Lingjing Kong&#42;, Weifeng Lu&#42;, Jinzhou Tang, Kun Zhang, Kevin Murphy, Chelsea Finn, Yilun Du</p>
 <div class="pub-meta">
-<p class="pub-venue">Preprint, 2026. Best Paper Award, ICLR World Model Workshop.</p>
+<p class="pub-venue">NeurIPS, 2026. Best Paper Award, ICLR World Model Workshop.</p>
 <p class="pub-links"><a href="https://arxiv.org/abs/2604.01985" target="_blank" rel="noopener noreferrer">Paper</a> · <a href="https://world-action-verifier.github.io/" target="_blank" rel="noopener noreferrer">Project</a> · <a href="https://github.com/world-action-verifier/wav_robot" target="_blank" rel="noopener noreferrer">Code</a></p>
 </div>
 </article>
